@@ -49,6 +49,6 @@ fun NewsStory() {
 
 @Preview
 @Composable
-fun defaultPreview() {
+fun DefaultPreview() {
     NewsStory()
 }
