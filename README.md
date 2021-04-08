@@ -10,9 +10,9 @@ understanding of the different concepts.
 ## Table of Contents
 * [What is Jetpack Compose](#what-is-Jetpack-Compose?)
 * [Foreword](#foreword)
-* [Lesson 1: Composable functions](#Lesson-1:-Composable-functions)
-* [Lesson 2: Layouts](#Lesson-2:-Layouts)
-* [Lesson 3: Material Design](#Lesson-3:-Material-Design)
+* [Composable functions](#composable-functions)
+* [Layouts](#layouts)
+* [Material Design](#material-design)
 
 ## What is Jetpack Compose?
 
@@ -38,7 +38,7 @@ You won't be editing any XML layouts or directly creating the UI widgets.
 Instead, you will call Jetpack Compose functions to say what elements you want, and the Compose 
 compiler will do the rest.
 
-## Lesson 1: Composable functions
+## Composable functions
 
 Jetpack Compose is designed to make an integral use of composable functions. These functions 
 encapsulates the state and data that belongs to a specific UI component.
@@ -73,7 +73,7 @@ To make a function composable, add the @Composable annotation.
 Android Studio Arctic Fox allows you to preview your composables within the window of the 
 `MainActivity`'s code in a near identical fashion to that of the layout preview window.
 
-## Lesson 2: Layouts
+## Layouts
 
 UI elements are hierarchical, with elements contained in other elements. In Compose, you build a UI 
 hierarchy by calling composable functions from other composable functions.
@@ -141,7 +141,7 @@ fun NewsStory() {
 ```
 The painter parameter uses `painterResource` to determine the source of the `drawable`.
 
-## Lesson 3: Material Design
+## Material Design
 
 Compose is built to support **material design principles.**
 
